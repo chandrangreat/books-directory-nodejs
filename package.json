@@ -1,0 +1,30 @@
+{
+  "name": "books-directory",
+  "version": "1.0.0",
+  "description": "A practice project for REST APIs",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon --watch app.js --watch books.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandrangreat/books-directory-nodejs.git"
+  },
+  "keywords": [
+    "books-directory"
+  ],
+  "author": "Ravi Chandran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandrangreat/books-directory-nodejs/issues"
+  },
+  "homepage": "https://github.com/chandrangreat/books-directory-nodejs#readme"
+}
